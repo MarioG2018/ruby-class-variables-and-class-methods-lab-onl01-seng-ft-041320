@@ -33,7 +33,7 @@ class Song
       else
         #genre_hash=genre_hash.has_key?(g)
         genre_hash[g]=1
-        @@count+=1
+        #@@count+=1
       end
       genre_hash
     end
