@@ -35,8 +35,8 @@ class Song
         genre_hash[g]=1
         #@@count+=1
       end
-      genre_hash
     end
+    genre_hash
   end
   
   
