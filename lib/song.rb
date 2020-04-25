@@ -34,6 +34,7 @@ class Song
         genre_hash=genre_hash[g].key
         @@count+=1
       end
+      genre_hash
     end
   end
   
