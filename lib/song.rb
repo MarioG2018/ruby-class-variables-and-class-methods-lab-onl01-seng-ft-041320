@@ -26,13 +26,12 @@ class Song
   
   def self.genre_count()
     genre_hash={}
-    new_key=1
     @@genres.each do |g|
       if(genre_hash[g])
         genre_hash[g]=1
         genre_hash[g]+=1
       else
-        genre_hash=genre_hash[g].new_key
+        genre_hash=genre_hash[g].key
         @@count+=1
       end
       genre_hash
